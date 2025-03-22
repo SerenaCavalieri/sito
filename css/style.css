@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;700&display=swap');
+
+* {
+    margin: 10;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.9;
+    color: #000;
+    background-color: #f8f8f8;
+    padding: 0;
+}
+
+header {
+    background-color: #fff;
+    color: #000;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+main {
+    max-width: 1800px;
+    margin: 100 auto;
+}
+
+section {
+    margin-bottom: 80px;
+}
+
+h1 {
+    font-family: 'Bodoni Moda', serif;
+    font-size: 96px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.1;
+    letter-spacing: 5px;
+}
+section {
+    margin-bottom: 80px;
+}
+h2 {
+    font-family: 'Bodoni Moda', serif;
+    font-size: 48px;
+    text-align: left;
+    text-transform: uppercase;
+    line-height: 1.1;
+    letter-spacing: 5px;
+}
+
+img {
+    max-width: 245px;
+    height: auto;
+    float: left;
+    margin: 10px 20px 20px 0;
+    border-radius: 0px;
+}
+
+blockquote {
+    background-color: black;
+    color: white;
+    padding: 40px;
+    margin: 60px 0;
+    border-radius: 90px;
+    text-align: center;
+    font-style: italic;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+blockquote::before {
+    content: "\201C";
+    font-size: 5rem;
+    position: relative;
+    top: 40px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.flex-item {
+    flex: 1;
+}
+
+.flex-item h2 {
+    font-family: 'Arial';
+    font-size: 48px;
+}
+
+.web-design-title {
+    font-family: 'Arial';
+    font-size: 96px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.1;
+    letter-spacing: 5px;
+}
+
+blockquote {
+    background-color: black;
+    color: white;
+    padding: 40px;
+    margin: 60px 0;
+    border-radius: 0px;
+    text-align: center;
+    font-style: italic;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+blockquote::before {
+    content: "\201C";
+    font-size: 5rem;
+    position: relative;
+    top: 40px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    font-size: 1rem;
+}
+
+@media screen and (max-width:600px) {
+    nav ul {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    h1 {
+        font-size: 64px;
+    }
+
+    .flex-container {
+        flex-direction: column;
+    }
+
+    img {
+        float: none;
+        margin: 0 auto 20px auto;
+        display: block;
+    }
+
+    body {
+        padding: 0 10px;
+    }
+}
